@@ -1,37 +1,33 @@
 <template>
   <div class="home">
     <span>{{ msg }}</span>
+
+    <TestFields />
   </div>
 </template>
 
 <script>
-
+import TestFields from "../components/test-fields/index.vue";
 export default {
-
-  name: 'Home',
-
-  data () {
+  name: "Home",
+  components: {
+    TestFields
+  },
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js Admin App',
-      customers : [],
-    }
+      msg: "Welcome to Your Vue.js Admin App",
+      customers: []
+    };
   },
 
-    created() {
+  created() {},
 
-    },
+  mounted() {},
 
-    mounted() {
-
-    },
-
-    methods: {
-
-    }
-}
+  methods: {}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-
 </style>

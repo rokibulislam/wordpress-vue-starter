@@ -1,8 +1,8 @@
 {
-  "name": "vue-wp-starter",
+  "name": "contact",
   "version": "1.0.0",
-  "description": "A WordPress Vue.js starter plugin",
-  "author": "Tareq Hasan <tareq@wedevs.com>",
+  "description": "Contact Form plugin",
+  "author": "wprox",
   "license": "GPLv2",
   "private": true,
   "scripts": {

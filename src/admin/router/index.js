@@ -6,7 +6,7 @@ import Settings from 'admin/pages/Settings.vue'
 Vue.use(Router)
 
 export default new Router({
-  routes: wp.hooks.applyFilters('spa_admin_routes',  [
+  routes: [
     {
       path: '/',
       name: 'Home',
@@ -17,5 +17,5 @@ export default new Router({
       name: 'Settings',
       component: Settings
     },
-  ] )
+  ]
 })
